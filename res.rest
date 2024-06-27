@@ -1,0 +1,23 @@
+Get http://localhost:5000/Users
+
+###
+Get http://localhost:5000/Users/1
+
+###
+Post http://localhost:5000/Users
+Content-Type: application/json
+
+{
+    "name": "Hakim",
+    "email": "hakim@gmail.com",
+    "gender": "Male"
+}
+###
+Post http://localhost:5000/Users
+Content-Type: application/json
+
+{
+    "name": "Hakim",
+    "email": "hakim@gmail.com",
+    "gender": "Male"
+}
